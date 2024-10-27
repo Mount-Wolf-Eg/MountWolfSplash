@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  color: var(--col-wt);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5% !important;
+}
+
+body {
+  background-color: #0e0e0e !important;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+input:focus {
+  outline: none;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.08);
+  color: white;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.splash-screen {
+  height: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  .mw-box {
+    width: 50%;
+    .mw-software {
+      border-right: 1px solid #ccc;
+    }
+    .mw-software,
+    .mw-marketing {
+      height: 42.4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      .image {
+        height: 60%;
+      }
+      button {
+        padding: 2rem 0;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        text-align: center;
+        height: 40%;
+        width: 100%;
+        color: white;
+      }
+    }
+  }
+}
+
+// media query
+@media only screen and (max-width: 1344px) {
+  html {
+    font-size: 55% !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 45% !important;
+  }
+}
+@media only screen and (max-width: 944px) {
+  html {
+    font-size: 35% !important;
+  }
+}
+@media only screen and (max-width: 704px) {
+  html {
+    font-size: 25% !important;
+  }
+}
+@media only screen and (max-width: 544px) {
+  html {
+    font-size: 23% !important;
+  }
+}
