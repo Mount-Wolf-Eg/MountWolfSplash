@@ -1,18 +1,20 @@
 <template>
   <div class="splash-view">
-    <div class="nav-btns row">
-      <div class="col-12 col-sm-6 icon-box">
+    <div class="nav-btns d-flex align-items-center justify-content-center">
+      <div
+        class="icon-box text-center w-50 d-flex flex-column align-items-center justify-content-start"
+      >
         <div
-          class="w-100 d-flex justify-content-center align-items-end"
-          style="height: 60%"
+          class="d-flex justify-content-center align-items-center h-75"
+          style="overflow: hidden"
         >
           <img
+            style="height: 60%; width: auto"
             src="/src/assets/splash/Component 12.png"
-            style="width: 18.9rem; height: auto"
             alt="mount wolf developer"
           />
         </div>
-        <button class="see-btn h-auto">
+        <button class="see-btn" style="justify-self: flex-start !important">
           <a
             style="display: inline-block"
             target="_blank"
@@ -21,8 +23,7 @@
             Visit Website
           </a>
           <svg
-            class="mx-2"
-            style="width: 0.8rem; height: 0.8rem; font-weight: bold"
+            style="width: 1rem; height: 1rem"
             viewBox="0 0 8 8"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -40,19 +41,19 @@
         style="width: 1px; height: 100%; background-color: #ffffff !important"
       ></div>
 
-      <div class="col-12 col-sm-6 icon-box">
+      <div class="icon-box text-center w-50">
         <div
-          class="w-100 d-flex justify-content-center align-items-end"
-          style="height: 60%"
+          class="d-flex justify-content-center align-items-center h-75"
+          style="overflow: hidden"
         >
           <img
-            class="pb-3"
-            style="width: 27.8rem; height: auto"
+            class="dg-market"
+            style="height: auto; width: 70%"
             src="/src/assets/splash/Component 13.png"
             alt="mount wolf marketing"
           />
         </div>
-        <button class="see-btn h-auto">
+        <button class="see-btn">
           <a
             style="display: inline-block"
             target="_blank"
@@ -61,8 +62,7 @@
             Visit Website
           </a>
           <svg
-            class="mx-2"
-            style="width: 0.8rem; height: 0.8rem; font-weight: bold"
+            style="width: 1rem; height: 1rem"
             viewBox="0 0 8 8"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

@@ -52,17 +52,21 @@ button {
 //new                                   version
 //new                                   version
 .splash-view {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   .nav-btns {
-    height: 42.4rem;
-    width: 110rem;
+    width: 50vw;
+    height: auto;
+    aspect-ratio: 1 / 0.5;
+
     .icon-box {
-      padding: 0;
+      width: 100%;
       height: 100%;
+
       img {
         transition: all 0.3s ease-in-out;
         &:hover {
@@ -71,11 +75,8 @@ button {
         }
       }
       .see-btn {
-        width: 100%;
-        color: #fff;
-        font-size: 1.4rem;
-        text-align: center;
-        padding: 3rem 0;
+        font-size: 1vw;
+        transition: all 0.3s ease-in-out;
         &:hover {
           transform: scale(1.2);
         }
@@ -92,34 +93,46 @@ button {
 //new                                   version
 //new                                   version
 
-// media query
+// // media query
 @media only screen and (max-width: 325px) {
   html {
     font-size: 40% !important;
   }
-  body {
-    // background-color: red !important;
-  }
+  // body {
+  //   background-color: red !important;
+  // }
   .splash-view {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: start !important;
-    padding-top: 30rem;
     .nav-btns {
-      width: 100%;
-      color: black !important;
-      flex-direction: row !important;
+      width: 100% !important;
+      flex-direction: column !important;
       .vr {
         display: none !important;
       }
       .icon-box {
-        height: 50%;
+        max-width: 130px;
+        width: 100% !important;
         .see-btn {
-          width: 100%;
-          padding-top: 1rem;
+          font-size: 8px;
+          margin-top: -12px !important;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 325px) and (max-width: 576px) {
+  .splash-view {
+    .nav-btns {
+      width: 100% !important;
+      flex-direction: column !important;
+      .vr {
+        display: none !important;
+      }
+      .icon-box {
+        max-width: 130px;
+        width: 100% !important;
+        .see-btn {
+          font-size: 8px;
+          margin-top: -12px !important;
         }
       }
     }
@@ -127,43 +140,26 @@ button {
 }
 // media query
 @media only screen and (min-width: 325px) and (max-width: 576px) {
-  html {
-    font-size: 42% !important;
-  }
-  body {
-    // background-color: rgb(43, 255, 0) !important;
-  }
   .splash-view {
-    overflow: hidden !important;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: start !important;
-    padding-top: 35rem;
     .nav-btns {
+      width: 100% !important;
+      flex-direction: column !important;
       .vr {
         display: none !important;
       }
       .icon-box {
-        height: 50%;
+        max-width: 130px;
+        width: 100% !important;
         .see-btn {
-          width: 100%;
-          padding-top: 1rem;
+          font-size: 12px;
+          margin-top: -15px !important;
         }
       }
     }
   }
 }
-// media query
+// // media query
 @media only screen and (min-width: 576px) and (max-width: 804px) {
-  html {
-    font-size: 40% !important;
-  }
-  body {
-    // background-color: rgb(238, 255, 0) !important;
-  }
   .splash-view {
     overflow: hidden !important;
     width: 100%;
@@ -172,9 +168,6 @@ button {
     flex-direction: row;
 
     .nav-btns {
-      display: flex;
-      flex-direction: column !important;
-
       .icon-box {
         .see-btn {
           width: 100%;
@@ -183,26 +176,26 @@ button {
     }
   }
 }
-// media query
-@media only screen and (min-width: 804px) {
-  body {
-    // background-color: rgb(255, 0, 140) !important;
-  }
-  .splash-view {
-    overflow: hidden !important;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden !important;
-    flex-direction: row;
+// // media query
+// @media only screen and (min-width: 804px) {
+//   body {
+//     // background-color: rgb(255, 0, 140) !important;
+//   }
+//   .splash-view {
+//     overflow: hidden !important;
+//     width: 100%;
+//     height: 100vh;
+//     overflow: hidden !important;
+//     flex-direction: row;
 
-    .nav-btns {
-      display: flex;
-      flex-direction: column !important;
-      .icon-box {
-        .see-btn {
-          width: 100%;
-        }
-      }
-    }
-  }
-}
+//     .nav-btns {
+//       display: flex;
+//       flex-direction: column !important;
+//       .icon-box {
+//         .see-btn {
+//           width: 100%;
+//         }
+//       }
+//     }
+//   }
+// }
