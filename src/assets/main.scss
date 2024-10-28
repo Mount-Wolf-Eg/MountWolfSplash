@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5% !important;
+}
+
+body {
+  background-color: #0e0e0e !important;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+input:focus {
+  outline: none;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.08);
+  color: white;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+//new                                   version
+//new                                   version
+//new                                   version
+.splash-view {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .nav-btns {
+    height: 42.4rem;
+    width: 110rem;
+    .icon-box {
+      padding: 0;
+      height: 100%;
+      img {
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          transition: all 0.3s ease-in-out;
+          transform: scale(1.1);
+        }
+      }
+      .see-btn {
+        width: 100%;
+        color: #fff;
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 3rem 0;
+        &:hover {
+          transform: scale(1.2);
+        }
+        &:hover svg {
+          transform: scale(1.2);
+          transition: all 0.3s ease-in-out;
+          transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+}
+//new                                   version
+//new                                   version
+//new                                   version
+
+// media query
+@media only screen and (max-width: 325px) {
+  html {
+    font-size: 40% !important;
+  }
+  body {
+    // background-color: red !important;
+  }
+  .splash-view {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: start !important;
+    padding-top: 30rem;
+    .nav-btns {
+      width: 100%;
+      color: black !important;
+      flex-direction: row !important;
+      .vr {
+        display: none !important;
+      }
+      .icon-box {
+        height: 50%;
+        .see-btn {
+          width: 100%;
+          padding-top: 1rem;
+        }
+      }
+    }
+  }
+}
+// media query
+@media only screen and (min-width: 325px) and (max-width: 576px) {
+  html {
+    font-size: 42% !important;
+  }
+  body {
+    // background-color: rgb(43, 255, 0) !important;
+  }
+  .splash-view {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: start !important;
+    padding-top: 35rem;
+    .nav-btns {
+      .vr {
+        display: none !important;
+      }
+      .icon-box {
+        height: 50%;
+        .see-btn {
+          width: 100%;
+          padding-top: 1rem;
+        }
+      }
+    }
+  }
+}
+// media query
+@media only screen and (min-width: 576px) and (max-width: 804px) {
+  html {
+    font-size: 40% !important;
+  }
+  body {
+    // background-color: rgb(238, 255, 0) !important;
+  }
+  .splash-view {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden !important;
+    flex-direction: row;
+
+    .nav-btns {
+      display: flex;
+      flex-direction: column !important;
+
+      .icon-box {
+        .see-btn {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+// media query
+@media only screen and (min-width: 804px) {
+  body {
+    // background-color: rgb(255, 0, 140) !important;
+  }
+  .splash-view {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden !important;
+    flex-direction: row;
+
+    .nav-btns {
+      display: flex;
+      flex-direction: column !important;
+      .icon-box {
+        .see-btn {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
