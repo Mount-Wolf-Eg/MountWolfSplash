@@ -2,7 +2,7 @@
   <div class="splash-view">
     <div class="nav-btns d-flex align-items-center justify-content-center">
       <div
-        class="icon-box text-center w-50 d-flex flex-column align-items-center justify-content-start"
+        class="icon-box text-center w-50 d-flex flex-column align-items-center justify-content-center justify-content-sm-start"
       >
         <div
           class="d-flex justify-content-center align-items-center h-75"
@@ -41,7 +41,9 @@
         style="width: 1px; height: 100%; background-color: #ffffff !important"
       ></div>
 
-      <div class="icon-box text-center w-50">
+      <div
+        class="icon-box text-center w-50 d-flex flex-column align-items-center justify-content-center justify-content-sm-start"
+      >
         <div
           class="d-flex justify-content-center align-items-center h-75"
           style="overflow: hidden"
@@ -53,7 +55,7 @@
             alt="mount wolf marketing"
           />
         </div>
-        <button class="see-btn">
+        <button class="see-btn" style="justify-self: flex-start !important">
           <a
             style="display: inline-block"
             target="_blank"

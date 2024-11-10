@@ -98,9 +98,9 @@ button {
   html {
     font-size: 40% !important;
   }
-  // body {
-  //   background-color: red !important;
-  // }
+  body {
+    // background-color: red !important;
+  }
   .splash-view {
     .nav-btns {
       width: 100% !important;
@@ -176,26 +176,3 @@ button {
     }
   }
 }
-// // media query
-// @media only screen and (min-width: 804px) {
-//   body {
-//     // background-color: rgb(255, 0, 140) !important;
-//   }
-//   .splash-view {
-//     overflow: hidden !important;
-//     width: 100%;
-//     height: 100vh;
-//     overflow: hidden !important;
-//     flex-direction: row;
-
-//     .nav-btns {
-//       display: flex;
-//       flex-direction: column !important;
-//       .icon-box {
-//         .see-btn {
-//           width: 100%;
-//         }
-//       }
-//     }
-//   }
-// }
