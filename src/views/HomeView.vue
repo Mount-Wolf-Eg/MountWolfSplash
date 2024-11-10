@@ -9,7 +9,15 @@
           style="overflow: hidden"
         >
           <img
-            style="height: 60%; width: auto"
+            style="
+              height: 100%;
+              width: auto;
+              object-fit: cover;
+              object-position: center;
+              max-height: 60%;
+              min-height: 90%;
+              margin-bottom: 5rem;
+            "
             src="/src/assets/splash/Component 12.png"
             alt="mount wolf developer"
           />
@@ -50,7 +58,14 @@
         >
           <img
             class="dg-market"
-            style="height: auto; width: 70%"
+            style="
+              height: 100%;
+              width: auto;
+              object-fit: cover;
+              object-position: center;
+              max-height: 30%;
+              min-height: 50%;
+            "
             src="/src/assets/splash/Component 13.png"
             alt="mount wolf marketing"
           />
