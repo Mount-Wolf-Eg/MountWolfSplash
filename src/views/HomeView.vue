@@ -5,17 +5,17 @@
         class="icon-box text-center w-50 d-flex flex-column align-items-center justify-content-center justify-content-sm-start"
       >
         <div
-          class="d-flex justify-content-center align-items-center h-75"
+          class="d-flex justify-content-center align-items-center h-100"
           style="overflow: hidden"
         >
           <img
+            class="wolf-logo"
             style="
               height: 100%;
               width: auto;
               object-fit: cover;
               object-position: center;
               max-height: 60%;
-              min-height: 90%;
               margin-bottom: 5rem;
             "
             src="/src/assets/splash/Component 12.png"
@@ -53,18 +53,17 @@
         class="icon-box text-center w-50 d-flex flex-column align-items-center justify-content-center justify-content-sm-start"
       >
         <div
-          class="d-flex justify-content-center align-items-center h-75"
+          class="d-flex justify-content-center align-items-center h-100"
           style="overflow: hidden"
         >
           <img
-            class="dg-market"
+            class="dg-market mount-logo"
             style="
               height: 100%;
               width: auto;
               object-fit: cover;
               object-position: center;
-              max-height: 30%;
-              min-height: 50%;
+              max-height: 35%;
             "
             src="/src/assets/splash/Component 13.png"
             alt="mount wolf marketing"

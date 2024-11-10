@@ -118,6 +118,12 @@ button {
       }
     }
   }
+  .wolf-logo {
+    min-height: 70% !important;
+  }
+  .mount-logo {
+    min-height: 20% !important;
+  }
 }
 @media only screen and (min-width: 325px) and (max-width: 576px) {
   .splash-view {
