@@ -26,7 +26,7 @@
           <a
             style="display: inline-block"
             target="_blank"
-            href="sw.mount-wolf.com"
+            href="https://sw.mount-wolf.com"
           >
             Visit Website
           </a>
@@ -73,7 +73,7 @@
           <a
             style="display: inline-block"
             target="_blank"
-            href="dig.mount-wolf.com"
+            href="https://dig.mount-wolf.com"
           >
             Visit Website
           </a>
